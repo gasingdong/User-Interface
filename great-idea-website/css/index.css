@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+    margin: 50px;
+    margin-top: 10px;
+    width: 876px;
+}
+
+#leftHeader {
+    margin: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+#rightHeader {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    float: right;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: middle;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    word-spacing: 55px;
+    margin-right: 75px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: gainsboro;
+}
+
+img {
+    margin: 20px;
+    margin-right: 0px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+img.header-img {
+    margin-top: 50px;
+}
+
+img.middle-img {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button {
+    font-family: 'Titillium Web', sans-serif;
+    background: none;
+    border: 1px solid black;
+    width: 200px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.content {
+    display: inline-block;
+    border-top: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.content div{
+    padding-right: 10px;
+    display: inline-block;
+}
+
+#features, #about {
+    width: 50%;
+    float: left;
+}
+
+#services, #product, #vision {
+    width: 33%;
+}
+
+address {
+    padding-top: 30px;
+}
+
